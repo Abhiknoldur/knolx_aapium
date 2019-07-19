@@ -1,0 +1,11 @@
+List of Devices============>
+adb devices
+
+Pull some data=============>
+adb pull /sdcard/Demo_Image/example.png
+
+Install an application======>
+adb install 'Calculator_v7.6 (246215570)_apkpure.com.apk'
+
+Show current activity=======>
+adb shell dumpsys window windows | grep -E 'mCurrentFocus|mFocusedApp'

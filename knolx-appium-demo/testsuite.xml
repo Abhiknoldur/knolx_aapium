@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Automation Suite" annotations="JDK" parallel="tests">
+    <test name="Installation Test">
+        <classes>
+            <class name="com.knolx.demo.FeaturesTest"/>
+        </classes>
+    </test>
+</suite>
